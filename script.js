@@ -1,3 +1,4 @@
+
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const todosUL = document.getElementById('todos');
@@ -57,3 +58,4 @@ function updateLs() {
 
   localStorage.setItem('todos', JSON.stringify(todos))
 }
+ // Daily Tasks Form

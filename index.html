@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>ToDoList</title>
+  <title>ToDoLists</title>
 </head>
 <body>
-  <h1>To Do List</h1>
-  <form id="form">
-    <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+  <h1>To Do Lists</h1>
+  <div class="wrapper">
+    <form id="form">
+      <input type="text" class="input" id="input" placeholder="Enter todo" autocomplete="off">
 
-    <ul class="todos" id="todos"></ul>
-  </form>
+      <ul class="todos" id="todos"></ul>
+    </form>
+    <form id="form-daily">
+      <input type="text" class="input-daily" id="input-daily" placeholder="Enter Daily Tasks" autocomplete="off">
+
+      <ul class="todos-daily" id="todos-daily"></ul>
+    </form>
+  </div>
   <small>Left click to toggle completed <br> Right click to delete todo</small>
   <script src="script.js"></script>
 </body>
