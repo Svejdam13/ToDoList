@@ -21,16 +21,13 @@ h1{
   text-align: center;
   opacity: 0.4;
 }
-.wrapper{
-  display: flex;
-}
 form{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   width: 400px;
   margin: 10px;
 }
-.input, .input-daily{
+.input{
   border: none;
   color: #444;
   font-size: 2rem;
@@ -39,25 +36,25 @@ form{
   width: 100%;
 }
 
-.input::placeholder, .input-daily::placeholder{
+.input::placeholder{
   color: #d5d5d5;
 }
-.input:focus, .input-daily:focus{
+.input:focus{
   outline-color: rgb(100, 133, 223);
 }
-.todos, .todos-daily{
+.todos{
   background-color: #fff;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-.todos li, .todos-daily li{
+.todos li{
   border-top: 1px solid #e5e5e5;
   cursor: pointer;
   font-size: 1.5rem;
   padding: 1rem 2rem;
 }
-.todos li.completed, .todos-daily li.completed{
+.todos li.completed{
   color: #b6b6b6;
   text-decoration: line-through;
 }
